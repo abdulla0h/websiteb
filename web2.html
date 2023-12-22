@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyota Showroom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        header {
+            background-color: #292f35; 
+            color: white
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #2d343a; 
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #e3e3e3;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #545e68; 
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1  {
+            color: #dcdbdb;
+                text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  } 
+        
+        img.toyota {
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            top: 0;
+            left: 10;
+             }
+
+         h2, h3 {
+            color: #000000; 
+        }
+
+        p {
+            line-height: 1.6;
+            color: #3e4349;
+        }
+
+        .cars {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .car {
+            width: 300px;
+            padding: 20px;
+            margin: 10px;
+            background-color: #dfdcdc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(21, 21, 21, 0.1);
+            transition: transform 0.3s ease-in-out;
+            overflow: hidden;
+        }
+
+        .car:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333334;
+            color: #dcdbdb;
+            text-align: center;
+            padding: 1em;
+        }
+
+        container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+      
+    </style>
+</head>
+<body>
+
+    <header>
+        <container>
+            <h1>Welcome to Toyota Pakistan</h1>
+            <img class=toyota src="toyota.png" alt="toyota logo">
+        </container>
+    </header>
+
+    <nav>
+        <container>
+            <a href="#home">Home</a>
+            <a href="#cars">Cars</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </container>
+    </nav>
+
+    <section id="home">
+        <container>
+            <h2>Explore your ideal Toyota
+            </h2>
+            <p>A Symbol of Quality, Durability and Reliability</p>
+        </container>
+    </section>
+
+    <section id="cars">
+        <container>
+            <h2>Featured Cars</h2>
+            <div class="cars">
+                <div class="car">
+                    <h3>Cars & MPVs</h3>
+                    <p>Spacious and versatile MPV available, ideal for families</p>
+                  <p> Fuel-efficient sedan now on the market!Perfect for urban commuting with its compact design and engine</p>
+                 <p> Compact hatchback up for grabs a superb combination of efficiency and practicality.</p>
+                  <p> <a href="cars and mpv.html">Explore<i class="fas fa-chevron-right"></a></i></p>
+                </div>
+                <div class="car">
+                    <h3>SUVs & Pickups</h3>
+                    <p>Discover the perfect blend of space and capability with our SUVs</p>
+                    <p>seeking comfort and versatility, these spacious vehicles are equipped to handle various terrains,
+                         ensuring a reliable and adventurous journey for you and your loved ones.</p>
+                         <p>Unleash the power of our pickup trucks, designed to tackle both professional tasks and off-road adventures. </p>
+                    <a href="suvs and pickup.html">Explore <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="car">
+                    <h3>Gazoo Racing</h3>
+                    <p>Mark your arrival into a new age with the All New Camry. 
+                        Based on a philosophy that redefines excellence; Our new age sedan offers unsurpassed levels of performa
+                        nce, comfort, and luxury. Experience a new world of comfortable adventure. Revel in the glory of undeniable l
+                        uxury. Open up to a road of endless possibilities</p>
+                    <p>Price: PKR 53,878,000</p>
+                    <a href="gazoo racing.html">Explore <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </container>
+    </section>
+
+    <section id="about">
+        <container>
+            <h2>About Us</h2>
+            <p>Discover a world of automotive excellence at Toyota Showroom.
+            We strive to provide top-notch vehicles and exceptional customer service.</p>
+        </container>
+    </section>
+
+    <section id="contact">
+        <container>
+            <h2>Contact Us</h2>
+            <p>Visit us at:</p>
+            <p>Johar Town, Lahore, Pakistan</p>
+            <p>Email: riazabdullah674@gmail.com</p>
+            
+           <p> <a href="https://www.instagram.com/abdollah_riaz" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram-square social-icons"></i> Instagram
+            </a></p>
+        </container>
+    </section>
+
+    <footer>
+        <container>
+            <p>&copy; 2023 Toyota Showroom. All rights reserved.</p>
+        </container>
+       
+    </footer>
+
+</body>
+</html>
